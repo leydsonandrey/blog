@@ -95,6 +95,15 @@ syncthing --no-browser
 
 No Linux, o GUI também roda no endereço https://127.0.0.1:8384 por padrão. 
 
+### Iniciando junto com o sistema (systemd)
+
+``` bash
+systemctl enable syncthing@USUÁRIO_AQUI.service
+systemctl start syncthing@USUÁRIO_AQUI.service
+```
+
+Lembre-se de trocar "USUÁRIO_AQUI" pelo seu usuário.
+
 ## Instalando no Android
 
 O Syncthing pode ser baixado pela [Google Play Store](https://play.google.com/store/games) ou pelo [F-Droid](https://f-droid.org/):
